@@ -1,0 +1,20 @@
+
+Blockchain installation instructions
+
+install python 3.7.2 and i did all settings inside hello-eth ethereum tool
+
+install node-v12.13.1-64.msi software and this software available inside code folder
+and then install packages from requirements.txt file
+
+i did all setup just follow screens shots
+
+blockchain server can be start from hello-eth folder by double clicking on 'runBlockchain.bat file which you can find inside  'hello-eth/node-modules/bin' folder
+after clicking just type command as 'migrate' and then press enter key to deploy contract
+
+After contract deployment in etherum black window you will get contract address under 'Encryption' section and that contract
+address you replace in BlockchainEncryption/EncryptionApp/Views.py at line no 36
+
+in BlockchainEncryption/EncryptionApp/Views.py at line no 36 you will see this address '0xd374Cb05bd6187D6cF905D7bBD85f2b704fBDD29' 
+and just replace this with your new contract address. 
+
+just double click on run.bat file to start server and then run code by seeing screenshots
